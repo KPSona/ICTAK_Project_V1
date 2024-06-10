@@ -5,8 +5,9 @@
     <classes>
       <class name="org.ict.testcases.AdminLoginTC">
         <methods>
+          <include name="classSetup"/>
           <include name="new_setup"/>
-          <include name="blankAdLogin"/>
+          <include name="invalidAdLogin"/>
           <include name="launch"/>
         </methods>
       </class> <!-- org.ict.testcases.AdminLoginTC -->

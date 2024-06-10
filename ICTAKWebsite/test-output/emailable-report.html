@@ -8,62 +8,21 @@
 <body>
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
-<tr><th colspan="8">Default suite</th></tr>
-<tr><td><a href="#t0">Default test</a></td><td class="num">2</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">96,892</td><td></td><td></td></tr>
+<tr><th colspan="8">Suite</th></tr>
+<tr><td><a href="#t0">Test</a></td><td class="num">11</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">36,242</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">org.ict.testcases.AdminLoginTC</td><td><a href="#m0">blankAdLogin</a></td><td rowspan="1">1716963371991</td><td rowspan="1">1843</td></tr><tr><th colspan="4">Default test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">org.ict.testcases.AdminLoginTC</td><td><a href="#m1">invalidAdLogin</a></td><td rowspan="1">1716963385655</td><td rowspan="1">966</td></tr><tr class="passedeven"><td><a href="#m2">validAdLogin</a></td><td rowspan="1">1716963397210</td><td rowspan="1">60166</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="3">org.ict.testcases.AdminLoginTC</td><td><a href="#m0">blankAdLogin</a></td><td rowspan="1">1718024578936</td><td rowspan="1">1294</td></tr><tr class="passedeven"><td><a href="#m1">invalidAdLogin</a></td><td rowspan="1">1718024576454</td><td rowspan="1">2480</td></tr><tr class="passedeven"><td><a href="#m2">validAdLogin</a></td><td rowspan="1">1718024580231</td><td rowspan="1">13535</td></tr><tr class="passedodd"><td rowspan="3">org.ict.testcases.ContactUsTC</td><td><a href="#m3">blkContactDetails</a></td><td rowspan="1">1718024574651</td><td rowspan="1">1798</td></tr><tr class="passedodd"><td><a href="#m4">contactDetails</a></td><td rowspan="1">1718024570847</td><td rowspan="1">651</td></tr><tr class="passedodd"><td><a href="#m5">invContactdetails</a></td><td rowspan="1">1718024571503</td><td rowspan="1">3146</td></tr><tr class="passedeven"><td rowspan="5">org.ict.testcases.CourseRegTC</td><td><a href="#m6">checkDropdnList</a></td><td rowspan="1">1718024557624</td><td rowspan="1">1484</td></tr><tr class="passedeven"><td><a href="#m7">courseApply</a></td><td rowspan="1">1718024559112</td><td rowspan="1">2140</td></tr><tr class="passedeven"><td><a href="#m8">invalidCourseApply</a></td><td rowspan="1">1718024561257</td><td rowspan="1">3312</td></tr><tr class="passedeven"><td><a href="#m9">invalidSearch</a></td><td rowspan="1">1718024569064</td><td rowspan="1">1778</td></tr><tr class="passedeven"><td><a href="#m10">searchValidCourse</a></td><td rowspan="1">1718024564571</td><td rowspan="1">4491</td></tr></tbody>
 </table>
-<h2>Default test</h2><h3 id="m0">org.ict.testcases.AdminLoginTC#blankAdLogin</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;button _ngcontent-vat-c32=&quot;&quot; type=&quot;submit&quot; class=&quot;btn bg-gradient-info mt-4 mb-0&quot; disabled=&quot;&quot;&gt;...&lt;/button&gt; is not clickable at point (767, 449). Other element would receive the click: &lt;div _ngcontent-vat-c32=&quot;&quot; class=&quot;text-center&quot;&gt;...&lt;/div&gt;
-  (Session info: chrome=125.0.6422.112)
-Build info: version: &apos;4.21.0&apos;, revision: &apos;79ed462ef4&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.1&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [65178c34ebed093ceb585699da0e6445, clickElement {id=f.B80C37E63B58A2E65FA38F34F083690D.d.15D000D78817F948FB8C6D9F805B8161.e.9}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 125.0.6422.112, chrome: {chromedriverVersion: 125.0.6422.78 (14db42ec38ad..., userDataDir: C:\Users\kpson\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61978}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61978/devtoo..., se:cdpVersion: 125.0.6422.112, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (65178c34ebed093ceb585699da0e6445)] -&gt; xpath: //*[@id=&apos;exampleModalForm&apos;]//child::button]
-Session ID: 65178c34ebed093ceb585699da0e6445
-	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
-	at org.ict.pages.AdminLoginPage.sgnBtn(AdminLoginPage.java:55)
-	at org.ict.testcases.AdminLoginTC.blankAdLogin(AdminLoginTC.java:48)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at org.testng.TestRunner.privateRun(TestRunner.java:794)
-	at org.testng.TestRunner.run(TestRunner.java:596)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-	at org.testng.TestNG.runSuites(TestNG.java:1063)
-	at org.testng.TestNG.run(TestNG.java:1031)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Test</h2><h3 id="m0">org.ict.testcases.AdminLoginTC#blankAdLogin</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 <h3 id="m1">org.ict.testcases.AdminLoginTC#invalidAdLogin</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 <h3 id="m2">org.ict.testcases.AdminLoginTC#validAdLogin</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">org.ict.testcases.ContactUsTC#blkContactDetails</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">org.ict.testcases.ContactUsTC#contactDetails</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">org.ict.testcases.ContactUsTC#invContactdetails</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">org.ict.testcases.CourseRegTC#checkDropdnList</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">org.ict.testcases.CourseRegTC#courseApply</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">org.ict.testcases.CourseRegTC#invalidCourseApply</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">org.ict.testcases.CourseRegTC#invalidSearch</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">org.ict.testcases.CourseRegTC#searchValidCourse</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>
